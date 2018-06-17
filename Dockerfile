@@ -1,7 +1,7 @@
-FROM haasgz.hand-china.com:34950/openshift/jenkins-2-centos7
+FROM openshift/jenkins-2-centos7
 
-MAINTAINER infinitus
-LABEL maintainer="infinitus"
+MAINTAINER eliu
+LABEL maintainer="eliu"
 
 WORKDIR $JENKINS_HOME
 
